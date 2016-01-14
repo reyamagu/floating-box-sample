@@ -1,0 +1,73 @@
+.is-hide {
+	display: none;
+}
+
+.Header {
+	background: #2F2F2F;
+	padding: 12px;
+}
+.Header__title {
+	color: #999;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/**
+ * float
+ */
+/* .SampleItem__body--typeA */
+.SampleItem__body--typeA .wrapper {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.SampleItem__body--typeA .item {
+	margin-bottom: 10px;
+}
+
+.SampleItem__body--typeA .item img {
+	max-width: 100%;
+}
+
+.SampleItem__body--typeA .item--left {
+	text-align: left;
+}
+.SampleItem__body--typeA .item--right {
+	text-align: right;
+}
+.SampleItem__body--typeA .item--center {
+	text-align: center;
+}
+
+.SampleItem__body--typeA .item--1of3 {
+	width: 33.3%;
+}
+.SampleItem__body--typeA .item--2of3 {
+	width: 66.6%;
+}
+.SampleItem__body--typeA .item--fill {
+	width: 100%;
+}
+
+
+/**
+ * むりやりやるやつ
+ */
+ .SampleItem__body--typeB .wrapper {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.SampleItem__body--typeB p {
+	display: inline;
+}
+ /* 1番目の子要素のimgのクラスがaligncenterの場合 */
+ /*
+.SampleItem__body--typeB .wrapper p:nth-child(1) .aligncenter {
+	background: orange;
+}
+*/
